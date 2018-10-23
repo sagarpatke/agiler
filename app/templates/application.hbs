@@ -1,0 +1,17 @@
+<div style="display: flex; height: 100vh; flex-direction: column">
+    <div>
+    {{#paper-toolbar}}
+        {{#paper-toolbar-tools}}
+            {{#paper-button iconButton=true}}
+                {{paper-icon "menu"}}            
+            {{/paper-button}}
+            <h2>
+                Toolbar with Icon Buttons
+            </h2>
+        {{/paper-toolbar-tools}}
+    {{/paper-toolbar}}
+    </div>
+    <div class="ag-flex">
+        {{outlet}}
+    </div>
+</div>
